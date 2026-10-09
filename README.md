@@ -12,6 +12,8 @@ privacy, and the $MORETTA token before you use the app.
 | [Privacy](privacy.md) | Where your chat history lives, and what each model provider can see. |
 | [The token](token.md) | $MORETTA on Solana, and where to find the official contract address. |
 | [FAQ](faq.md) | Short answers to common questions. |
+| [Onchain research](onchain-research.md) | The AI agent that reads chain data with tools, checks tokens for scams and rugs, and tracks smart wallets. |
+| [Payments](payments.md) | How you pay for credit, now and in the next development. |
 
 ## Terms
 

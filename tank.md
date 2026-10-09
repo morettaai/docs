@@ -52,6 +52,16 @@ The app has a daily spending limit for all users together. When the app reaches 
 chat pauses until the next day, counted in UTC. This limit keeps free credit available for
 every holder.
 
+## A daily limit that follows the fees `Coming soon`
+
+Moretta plans to set the daily limit from the trading fees of $MORETTA. As trading grows,
+the free credit for holders can grow with it.
+
+## Holder discount `Coming soon`
+
+Holders pay less for each answer. Moretta announces the size of the discount before the
+discount goes live.
+
 ## Credit is not money
 
 Credit pays only for the chat in the Moretta app. You cannot sell credit, send it to

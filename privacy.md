@@ -42,3 +42,8 @@ keep.
 
 For the most private chat, choose a model with the label "Private". The model list has a
 filter that shows only private models.
+
+## Private payments `Next development`
+
+Moretta plans payments that link no payment to your identity: private top-ups on
+Starknet and anonymous vouchers for the chat. Read [Payments](payments.md).

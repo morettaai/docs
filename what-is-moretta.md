@@ -13,10 +13,22 @@ The app also has an Auto model. Auto picks a model for each message.
 
 Under each answer, the app shows the cost of that answer in US dollars.
 
-## Features that are coming
+## Features
 
-Image generation, video generation, and onchain research are coming to the chat. In the
-app, they show the label "soon".
+A feature with the label `Coming soon` comes after the launch. A feature with the label
+`Next development` comes after that.
+
+| Feature | What it does | Status |
+|---|---|---|
+| Chat | Chat with hundreds of models, in private. | At launch |
+| Private and Anonymous models | Each model shows what its provider can keep. Read [Privacy](privacy.md). | At launch |
+| Images | Make images in the chat, paid from your tank. | `Coming soon` |
+| Video | Make short videos in the chat, paid from your tank. | `Coming soon` |
+| Onchain research | An AI agent reads chain data with tools. It answers questions about a token or a wallet, checks tokens for scams and rugs, and tracks smart wallets. Read [Onchain research](onchain-research.md). | `Coming soon` |
+| Compare mode | Send one message to several models and compare the answers side by side. | `Coming soon` |
+| Share to X | Turn an answer into a card for X. | `Coming soon` |
+| Private payments | Pay for credit without a link to your identity. Read [Payments](payments.md). | `Next development` |
+| Telegram bot | Use Moretta in Telegram groups. | `Next development` |
 
 ## Sign in with a Solana wallet
 

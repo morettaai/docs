@@ -9,6 +9,8 @@
 - [Privacy](privacy.md): where chat history lives, what the Moretta server keeps, and the Private and Anonymous model labels.
 - [The token](token.md): $MORETTA on Solana, and the official sources of the contract address.
 - [FAQ](faq.md): short answers to common questions.
+- [Onchain research](onchain-research.md): the AI agent that reads Solana chain data with read-only tools, at most 6 tools for one question. Basics (token info, top holders, market, wallet overview, dev check); scam and rug checks (bundles, snipers, clusters, fresh wallets, dev history, sell test, risky extensions, copycats, socials); smart money (smart wallets, KOL wallets, wallet PnL, top traders); flow (buy and sell flow, wash trading, holder growth, curve progress); and a safety report with green, yellow, and red signals.
+- [Payments](payments.md): free credit from the tank, and the next development: private top-ups on Starknet, anonymous vouchers, pay with SOL or ZEC, and private billing.
 
 ## Official links
 
