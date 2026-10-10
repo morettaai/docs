@@ -37,6 +37,6 @@ No. The sign-in signature sends no transaction and costs nothing.
 Your tank stops filling when your holding falls below the line. The credit that is still
 in your tank stays, and you can spend it in the chat.
 
-## When does the app open?
+## Where do I chat?
 
-Follow [@morettadotai](https://x.com/morettadotai) on X for the date.
+Open [app.moretta.ai](https://app.moretta.ai) and connect a Solana wallet.

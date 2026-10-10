@@ -2,7 +2,7 @@
 
 Moretta is a private AI chat. You chat with the AI model of your choice, and your chat
 history stays in your browser. Holders of $MORETTA get free credit for the chat every
-hour.
+hour. The app is live at [app.moretta.ai](https://app.moretta.ai).
 
 ## The chat
 
@@ -15,13 +15,14 @@ Under each answer, the app shows the cost of that answer in US dollars.
 
 ## Features
 
-A feature with the label `Coming soon` comes after the app opens. A feature with the label
+A feature with the label `Coming soon` is not live yet. A feature with the label
 `Next development` comes after that.
 
 | Feature | What it does | Status |
 |---|---|---|
-| Chat | Chat with hundreds of models, in private. | When the app opens |
-| Private and Anonymous models | Each model shows what its provider can keep. Read [Privacy](privacy.md). | When the app opens |
+| Chat | Chat with hundreds of models, in private. | Live |
+| Private and Anonymous models | Each model shows what its provider can keep. Read [Privacy](privacy.md). | Live |
+| Leaderboard | The 100 largest holders of $MORETTA and their tanks. Read [The tank](tank.md). | Live |
 | Images | Make images in the chat, paid from your tank. | `Coming soon` |
 | Video | Make short videos in the chat, paid from your tank. | `Coming soon` |
 | Onchain research | An AI agent reads chain data with tools. It answers questions about a token or a wallet, checks tokens for scams and rugs, and tracks smart wallets. Read [Onchain research](onchain-research.md). | `Coming soon` |

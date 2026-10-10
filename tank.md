@@ -12,7 +12,8 @@ and the chat spends it. This page explains the rules of the tank.
 | Cap | $24 of credit |
 | First fill | After you hold through one full hour |
 
-The tank starts when the app opens. Until then, no tank fills.
+Tanks started to fill on 10 Oct 2026, when the app went live. For now, tanks fill every 30
+minutes instead of every hour, so early holders fill up faster.
 
 ## How a tank fills
 
@@ -27,6 +28,16 @@ A full tank holds $24 of credit. A full tank does not fill more until the chat s
 some of its credit.
 
 If the Moretta server is down during an hour, no tank fills for that hour.
+
+## The leaderboard
+
+The leaderboard at [moretta.ai/leaderboard](https://moretta.ai/leaderboard) shows the 100
+largest holders of $MORETTA, ranked by tokens held, with their tanks. Program accounts,
+such as the pump.fun curve, show apart and take no rank.
+
+To keep your wallet off the leaderboard, connect it at
+[app.moretta.ai/leaderboard](https://app.moretta.ai/leaderboard) and choose "Hide my
+wallet".
 
 ## How the app values your holding
 

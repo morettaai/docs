@@ -1,6 +1,6 @@
 # Moretta
 
-> Moretta is a private AI chat on Solana. Users sign in with a Solana wallet, chat with the AI model of their choice, and keep their chat history in the browser. Holders of $MORETTA get a tank of free credit that fills by $1 every hour while they hold at least $10 of $MORETTA, up to $24.
+> Moretta is a private AI chat on Solana. Users sign in with a Solana wallet, chat with the AI model of their choice, and keep their chat history in the browser. Holders of $MORETTA get a tank of free credit that fills by $1 every hour (every 30 minutes for now) while they hold at least $10 of $MORETTA, up to $24. The app is live at https://app.moretta.ai.
 
 ## Docs
 
@@ -14,7 +14,9 @@
 
 ## Official links
 
+- App: https://app.moretta.ai
 - Website: https://moretta.ai
+- Leaderboard: https://moretta.ai/leaderboard
 - X: https://x.com/morettadotai
 - Email: more@moretta.ai
 - $MORETTA contract address (Solana): 5noESNFxmUYNcznHQEGjs9UQJ9LrL2aoFJp4HnSjpump

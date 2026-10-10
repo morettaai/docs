@@ -43,6 +43,12 @@ keep.
 For the most private chat, choose a model with the label "Private". The model list has a
 filter that shows only private models.
 
+## The leaderboard
+
+The leaderboard shows the tanks of the 100 largest holders, so it shows how much credit a
+large holder has left. Any wallet can hide itself from the leaderboard in the app. Read
+[The tank](tank.md).
+
 ## Private payments `Next development`
 
 Moretta plans payments that link no payment to your identity: private top-ups on

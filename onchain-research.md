@@ -3,7 +3,7 @@
 This page explains onchain research in Moretta: an AI agent that reads chain data with
 tools and answers your question from that data. The agent also checks a token for the
 signs of a scam or a rug, and shows where smart wallets buy. Onchain research has the label
-`Coming soon`: it comes after the app opens.
+`Coming soon`: it is not live yet.
 
 ## What the agent does
 

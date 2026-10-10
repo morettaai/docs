@@ -33,9 +33,10 @@ These docs use one term for each concept.
 
 | Channel | Link |
 |---|---|
+| App | [app.moretta.ai](https://app.moretta.ai) |
 | Website | [moretta.ai](https://moretta.ai) |
 | X | [@morettadotai](https://x.com/morettadotai) |
 | Email | more@moretta.ai |
 
-The rules in these docs describe the app on 10 Oct 2026. $MORETTA trades on pump.fun, and
-the app opens later.
+The app is live, and $MORETTA trades on pump.fun. The rules in these docs describe the app
+on 10 Oct 2026.
