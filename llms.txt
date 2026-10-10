@@ -7,7 +7,7 @@
 - [What is Moretta](what-is-moretta.md): the chat, the models, and the wallet sign-in.
 - [The tank](tank.md): the line ($10), the hourly fill ($1), the cap ($24), how the app values a holding, and how the chat spends credit.
 - [Privacy](privacy.md): where chat history lives, what the Moretta server keeps, and the Private and Anonymous model labels.
-- [The token](token.md): $MORETTA on Solana, and the official sources of the contract address.
+- [The token](token.md): $MORETTA on Solana, on pump.fun, the contract address, and its official sources.
 - [FAQ](faq.md): short answers to common questions.
 - [Onchain research](onchain-research.md): the AI agent that reads Solana chain data with read-only tools, at most 6 tools for one question. Basics (token info, top holders, market, wallet overview, dev check); scam and rug checks (bundles, snipers, clusters, fresh wallets, dev history, sell test, risky extensions, copycats, socials); smart money (smart wallets, KOL wallets, wallet PnL, top traders); flow (buy and sell flow, wash trading, holder growth, curve progress); and a safety report with green, yellow, and red signals.
 - [Payments](payments.md): free credit from the tank, and the next development: private top-ups on Starknet, anonymous vouchers, pay with SOL or ZEC, and private billing.
@@ -17,3 +17,5 @@
 - Website: https://moretta.ai
 - X: https://x.com/morettadotai
 - Email: more@moretta.ai
+- $MORETTA contract address (Solana): 5noESNFxmUYNcznHQEGjs9UQJ9LrL2aoFJp4HnSjpump
+- Buy: https://pump.fun/coin/5noESNFxmUYNcznHQEGjs9UQJ9LrL2aoFJp4HnSjpump

@@ -37,4 +37,5 @@ These docs use one term for each concept.
 | X | [@morettadotai](https://x.com/morettadotai) |
 | Email | more@moretta.ai |
 
-The rules in these docs describe the app on 9 Oct 2026, before the launch of $MORETTA.
+The rules in these docs describe the app on 10 Oct 2026. $MORETTA trades on pump.fun, and
+the app opens later.

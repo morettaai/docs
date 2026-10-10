@@ -12,7 +12,7 @@ and the chat spends it. This page explains the rules of the tank.
 | Cap | $24 of credit |
 | First fill | After you hold through one full hour |
 
-The tank starts at the launch of $MORETTA. Before the launch, no tank fills.
+The tank starts when the app opens. Until then, no tank fills.
 
 ## How a tank fills
 

@@ -9,8 +9,12 @@ with free credit for the chat every hour.
 |---|---|
 | Ticker | $MORETTA |
 | Chain | Solana |
-| Launchpad | Published at launch |
-| Contract address | Published at launch |
+| Launchpad | pump.fun |
+| Contract address | `5noESNFxmUYNcznHQEGjs9UQJ9LrL2aoFJp4HnSjpump` |
+
+## Where to buy
+
+$MORETTA trades on pump.fun: [pump.fun/coin/5noESNFxmUYNcznHQEGjs9UQJ9LrL2aoFJp4HnSjpump](https://pump.fun/coin/5noESNFxmUYNcznHQEGjs9UQJ9LrL2aoFJp4HnSjpump).
 
 ## What $MORETTA gives you
 

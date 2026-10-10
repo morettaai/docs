@@ -1,7 +1,7 @@
 # Payments
 
-This page explains how you pay for credit in Moretta. At launch, holders of $MORETTA get
-free credit from the tank. In the next development, anyone can buy credit with a private
+This page explains how you pay for credit in Moretta. When the app opens, holders of
+$MORETTA get free credit from the tank. In the next development, anyone can buy credit with a private
 payment.
 
 A section with the label `Next development` describes a feature that is not live yet.
