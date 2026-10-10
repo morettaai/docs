@@ -12,8 +12,7 @@ and the chat spends it. This page explains the rules of the tank.
 | Cap | $24 of credit |
 | First fill | After you hold through one full hour |
 
-Tanks started to fill on 10 Oct 2026, when the app went live. For now, tanks fill every 30
-minutes instead of every hour, so early holders fill up faster.
+Tanks started to fill on 10 Oct 2026, when the app went live.
 
 ## How a tank fills
 
