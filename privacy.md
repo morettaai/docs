@@ -5,16 +5,22 @@ Moretta server keeps, and what each model provider can see.
 
 ## Your chat history stays in your browser
 
-The app saves your chats in the storage of your browser, on your device. The Moretta
-server does not keep a copy of your chats.
+The app saves your chats, your images, and your videos in the storage of your browser, on
+your device. The Moretta server does not keep a copy of your chats, images, or videos.
 
-If you clear the storage of your browser, your chats are gone. A chat that you start on
-one device does not show on another device.
+If you clear the storage of your browser, your chats, images, and videos are gone. A chat
+that you start on one device does not show on another device.
 
 ## The Moretta server keeps no prompts
 
 When you send a message, the Moretta server passes it to the model provider and passes
-the answer back to you. The server does not store your messages or the answers.
+the answer back to you. The server does not store your messages or the answers. An image
+takes the same path, and the server keeps no copy of it.
+
+A video takes longer. While the provider makes a video, the server keeps your wallet, the
+job id of the video, and its price, so that it can give the video to your browser and
+settle the price. The server deletes this record when your browser has the video, and
+after 24 hours at the latest. The server never keeps the prompt or the video.
 
 The server keeps only what the tank needs:
 
@@ -22,6 +28,8 @@ The server keeps only what the tank needs:
 - The $MORETTA balance of each wallet.
 - The credit in each tank.
 - The total that the app spends each day.
+- The price of the last image of each image model, with no wallet and no message.
+- While a video is made: your wallet, the job id of the video, and its price.
 
 The server does not ask for your name, your email address, or a password.
 
@@ -42,6 +50,9 @@ keep.
 
 For the most private chat, choose a model with the label "Private". The model list has a
 filter that shows only private models.
+
+Every video model has the label "Anonymous". The provider keeps each video for a short
+time, until the app gets it.
 
 ## The leaderboard
 

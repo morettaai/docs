@@ -1,12 +1,12 @@
 # Moretta
 
-> Moretta is a private AI chat on Solana. Users sign in with a Solana wallet, chat with the AI model of their choice, and keep their chat history in the browser. Holders of $MORETTA get a tank of free credit that fills by $1 every hour (every 30 minutes for now) while they hold at least $10 of $MORETTA, up to $24. The app is live at https://app.moretta.ai.
+> Moretta is a private AI chat on Solana. Users sign in with a Solana wallet, chat with the AI model of their choice, make images and videos with dozens of image and video models, and keep their chat history, images, and videos in the browser. Holders of $MORETTA get a tank of free credit that fills by $1 every hour (every 30 minutes for now) while they hold at least $10 of $MORETTA, up to $24. The app is live at https://app.moretta.ai.
 
 ## Docs
 
-- [What is Moretta](what-is-moretta.md): the chat, the models, and the wallet sign-in.
-- [The tank](tank.md): the line ($10), the hourly fill ($1), the cap ($24), how the app values a holding, and how the chat spends credit.
-- [Privacy](privacy.md): where chat history lives, what the Moretta server keeps, and the Private and Anonymous model labels.
+- [What is Moretta](what-is-moretta.md): the chat, images (the image models, the aspect ratios, and the price of an image), videos (the video models, the lengths, sound, the price of a video, and how long a video takes), the models, and the wallet sign-in.
+- [The tank](tank.md): the line ($10), the hourly fill ($1), the cap ($24), how the app values a holding, and how the chat spends credit on answers, images, and videos.
+- [Privacy](privacy.md): where chat history, images, and videos live, what the server keeps while a video is made, what the Moretta server keeps, and the Private and Anonymous model labels.
 - [The token](token.md): $MORETTA on Solana, on pump.fun, the contract address, and its official sources.
 - [FAQ](faq.md): short answers to common questions.
 - [Onchain research](onchain-research.md): the AI agent that reads Solana chain data with read-only tools, at most 6 tools for one question. Basics (token info, top holders, market, wallet overview, dev check); scam and rug checks (bundles, snipers, clusters, fresh wallets, dev history, sell test, risky extensions, copycats, socials); smart money (smart wallets, KOL wallets, wallet PnL, top traders); flow (buy and sell flow, wash trading, holder growth, curve progress); and a safety report with green, yellow, and red signals.

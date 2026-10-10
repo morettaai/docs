@@ -54,6 +54,15 @@ cost from your tank, and the app shows the cost under the answer.
 
 If you stop an answer before it ends, the app charges an estimate of its cost.
 
+An image costs the price that the provider of the image model charges for it. Before you
+send, your tank must hold at least the price of one image. If you stop an image before it
+is ready, the image costs nothing.
+
+A video costs its price per second times its length. Your tank must hold that price, and
+it pays the price when the video starts. If the video fails, the price goes back to your
+tank. You cannot stop a video after you send it. You can make one video at a time, and
+you can chat while the app makes it.
+
 You can send one message at a time. Your tank can fall below zero by the cost of one
 answer. The next fills cover it.
 

@@ -7,7 +7,7 @@ privacy, and the $MORETTA token before you use the app.
 
 | Page | What it explains |
 |---|---|
-| [What is Moretta](what-is-moretta.md) | The chat, the models, and how you sign in. |
+| [What is Moretta](what-is-moretta.md) | The chat, images, videos, the models, and how you sign in. |
 | [The tank](tank.md) | How holders get free credit every hour, and how the chat spends it. |
 | [Privacy](privacy.md) | Where your chat history lives, and what each model provider can see. |
 | [The token](token.md) | $MORETTA on Solana, and where to find the official contract address. |
@@ -24,6 +24,8 @@ These docs use one term for each concept.
 | The Moretta software that you open in a browser | app |
 | The conversation screen of the app | chat |
 | An AI model that the app gives access to | model |
+| A model that makes images | image model |
+| A model that makes videos | video model |
 | A person who holds $MORETTA | holder |
 | The free balance of a holder that fills every hour | tank |
 | The value inside a tank, counted in US dollars | credit |
