@@ -24,6 +24,12 @@ of image and video models, such as Nano Banana 2, Seedream, Veo, and Kling.
 Yes. Turn on **Image** in the chat, pick an image model, and describe the image that you
 want. Your tank pays for each image. Read [What is Moretta](what-is-moretta.md).
 
+## Can I compare image models?
+
+Yes. Turn on **Image** and then **Compare** in the chat, pick two to four image models, and
+describe the image that you want. The images show up side by side, and your tank pays for
+each image. Read [What is Moretta](what-is-moretta.md).
+
 ## Can I make videos?
 
 Yes. Turn on **Video** in the chat, pick a video model, an aspect ratio, and a length, and

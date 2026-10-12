@@ -32,6 +32,27 @@ the price depends on the image, the model list shows "varies".
 Your tank pays for each image. Your images stay in your browser, with your chats. Read
 [Privacy](privacy.md).
 
+## Compare mode
+
+Compare mode sends one prompt to two to four image models at the same time. The images show
+up side by side, so you can compare the image models. To compare image models:
+
+1. Turn on **Image** in the chat, and then turn on **Compare**.
+2. Pick two to four image models. The model list shows the total price of your picks.
+3. Pick an aspect ratio. The app offers only the aspect ratios that all of your picks can
+   make.
+4. Describe the image that you want, and send.
+
+Each image shows up when its image model is ready. Under each image, the app shows the image
+model, its label, and the price of the image. The answer shows the total price. You can
+download each image, or make the images again with the image models that you pick now.
+
+Each image model charges its own price. Before you send, your tank must hold the total price
+of your picks. If you stop a compare, you pay only for the images that are ready. Read
+[The tank](tank.md).
+
+Compare mode works with image models. Compare mode for chat answers is not live yet.
+
 ## Videos
 
 The chat also makes short videos. To make a video:
@@ -64,8 +85,9 @@ A feature with the label `Coming soon` is not live yet. A feature with the label
 | Leaderboard | The 100 largest holders of $MORETTA and their tanks. Read [The tank](tank.md). | Live |
 | Images | Make images in the chat with dozens of image models, paid from your tank. | Live |
 | Video | Make short videos in the chat with Veo, Kling, and more, paid from your tank. | Live |
+| Compare mode | Send one prompt to two to four image models, and see the images side by side. | Live |
 | Onchain research | An AI agent reads chain data with tools. It answers questions about a token or a wallet, checks tokens for scams and rugs, and tracks smart wallets. Read [Onchain research](onchain-research.md). | `Coming soon` |
-| Compare mode | Send one message to several models and compare the answers side by side. | `Coming soon` |
+| Compare mode for chat | Send one message to several models, and see the answers side by side. | `Coming soon` |
 | Share to X | Turn an answer into a card for X. | `Coming soon` |
 | Private payments | Pay for credit without a link to your identity. Read [Payments](payments.md). | `Next development` |
 | Telegram bot | Use Moretta in Telegram groups. | `Next development` |

@@ -57,6 +57,10 @@ An image costs the price that the provider of the image model charges for it. Be
 send, your tank must hold at least the price of one image. If you stop an image before it
 is ready, the image costs nothing.
 
+In compare mode, each image model charges its own price. Before you send, your tank must
+hold the total price of your picks. If you stop a compare, the images that are ready cost
+their price, and the other images cost nothing.
+
 A video costs its price per second times its length. Your tank must hold that price, and
 it pays the price when the video starts. If the video fails, the price goes back to your
 tank. You cannot stop a video after you send it. You can make one video at a time, and

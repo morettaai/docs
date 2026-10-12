@@ -7,7 +7,7 @@ privacy, and the $MORETTA token before you use the app.
 
 | Page | What it explains |
 |---|---|
-| [What is Moretta](what-is-moretta.md) | The chat, images, videos, the models, and how you sign in. |
+| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, the models, and how you sign in. |
 | [The tank](tank.md) | How holders get free credit every hour, and how the chat spends it. |
 | [Privacy](privacy.md) | Where your chat history lives, and what each model provider can see. |
 | [The token](token.md) | $MORETTA on Solana, and where to find the official contract address. |
@@ -41,4 +41,4 @@ These docs use one term for each concept.
 | Email | more@moretta.ai |
 
 The app is live, and $MORETTA trades on pump.fun. The rules in these docs describe the app
-on 10 Oct 2026.
+on 12 Oct 2026.
