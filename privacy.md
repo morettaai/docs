@@ -5,8 +5,8 @@ Moretta server keeps, and what each model provider can see.
 
 ## Your chat history stays in your browser
 
-The app saves your chats, your images, and your videos in the storage of your browser, on
-your device. The Moretta server does not keep a copy of your chats, images, or videos.
+The app saves your chats, your images, your videos, and the images that you attach in the
+storage of your browser, on your device. The Moretta server does not keep a copy of your chats, images, or videos.
 
 If you clear the storage of your browser, your chats, images, and videos are gone. A chat
 that you start on one device does not show on another device.
@@ -15,7 +15,8 @@ that you start on one device does not show on another device.
 
 When you send a message, the Moretta server passes it to the model provider and passes
 the answer back to you. The server does not store your messages or the answers. An image
-takes the same path, and the server keeps no copy of it.
+takes the same path, and the server keeps no copy of it. An image that you attach to a prompt
+goes to the model provider with the prompt, and the server keeps no copy of it either.
 
 A video takes longer. While the provider makes a video, the server keeps your wallet, the
 job id of the video, and its price, so that it can give the video to your browser and

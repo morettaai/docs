@@ -7,7 +7,7 @@ privacy, and the $MORETTA token before you use the app.
 
 | Page | What it explains |
 |---|---|
-| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, the models, and how you sign in. |
+| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, attached images, the models, and how you sign in. |
 | [The tank](tank.md) | How holders get free credit every hour, and how the chat spends it. |
 | [Privacy](privacy.md) | Where your chat history lives, and what each model provider can see. |
 | [The token](token.md) | $MORETTA on Solana, and where to find the official contract address. |

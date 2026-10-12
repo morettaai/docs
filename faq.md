@@ -30,6 +30,12 @@ Yes. Turn on **Image** and then **Compare** in the chat, pick two to four image 
 describe the image that you want. The images show up side by side, and your tank pays for
 each image. Read [What is Moretta](what-is-moretta.md).
 
+## Can I send my own images?
+
+Yes. Attach up to 4 images to a prompt in the chat, in image mode, or in compare mode. A
+video starts from one image that you attach. The Moretta server keeps no copy of your images.
+Read [What is Moretta](what-is-moretta.md).
+
 ## Can I make videos?
 
 Yes. Turn on **Video** in the chat, pick a video model, an aspect ratio, and a length, and

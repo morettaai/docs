@@ -61,8 +61,13 @@ In compare mode, each image model charges its own price. Before you send, your t
 hold the total price of your picks. If you stop a compare, the images that are ready cost
 their price, and the other images cost nothing.
 
-A video costs its price per second times its length. Your tank must hold that price, and
-it pays the price when the video starts. If the video fails, the price goes back to your
+An image that you attach can change the price. Some image models charge more for an image
+with references than the price that the model list shows.
+
+A video costs its price per second times its length. A video that starts from your image
+can cost more. When you attach an image, the model list shows the price of a video that
+starts from it. Your tank must hold the price of the video, and it pays the price when the
+video starts. If the video fails, the price goes back to your
 tank. You cannot stop a video after you send it. You can make one video at a time, and
 you can chat while the app makes it.
 

@@ -13,6 +13,9 @@ The app also has an Auto model. Auto picks a model for each message.
 
 Under each answer, the app shows the cost of that answer in US dollars.
 
+You can also attach your own images to a message and ask about them. Read
+[Attach images](#attach-images).
+
 ## Images
 
 The chat also makes images. To make an image:
@@ -73,6 +76,40 @@ stop a video after you send it.
 Every video model has the label "Anonymous": the provider keeps each video for a short
 time. Your videos stay in your browser, with your chats. Read [Privacy](privacy.md).
 
+## Attach images
+
+You can attach your own images to a prompt in the chat, in image mode, in compare mode, and
+in video mode. To attach an image, use one of these ways:
+
+- Click the paper clip in the chat, and pick an image file.
+- Paste an image into the chat.
+- Drop an image file on the chat.
+
+The attached images show as small squares over your prompt. To remove an image, click the
+remove button on its square.
+
+| Mode | What the model does with your images | Images on one prompt |
+|---|---|---|
+| Chat | The model reads your images and answers about them. | Up to 4 |
+| Image | The image model uses your images as references for the new image. | Up to 4 |
+| Compare | Each image model that you pick uses your images as references. | Up to 4 |
+| Video | The video starts from your image. | 1 |
+
+Not every model can take images. Many chat models read images, but some do not. Some image
+models take fewer than 4 images. If a model cannot take your images, the chat tells you why.
+You can send again after you pick another model or remove some images.
+
+Before the app sends an image, it makes the image smaller: a JPEG of at most 1,568 pixels on
+its longest side. You can attach only images. Other files, such as PDFs, are not live yet.
+
+An image can change the price. A video that starts from your image can cost more than a video
+from text. When you attach an image, the model list shows the price of a video that starts from
+it. Some image models charge more for an image with references than the price that the model
+list shows. Read [The tank](tank.md).
+
+Your attached images go to the model provider with your prompt. The Moretta server keeps no
+copy of them. They stay in your browser, with the prompt. Read [Privacy](privacy.md).
+
 ## Features
 
 A feature with the label `Coming soon` is not live yet. A feature with the label
@@ -86,6 +123,7 @@ A feature with the label `Coming soon` is not live yet. A feature with the label
 | Images | Make images in the chat with dozens of image models, paid from your tank. | Live |
 | Video | Make short videos in the chat with Veo, Kling, and more, paid from your tank. | Live |
 | Compare mode | Send one prompt to two to four image models, and see the images side by side. | Live |
+| Attach images | Attach your own images to a prompt in every mode of the chat. | Live |
 | Onchain research | An AI agent reads chain data with tools. It answers questions about a token or a wallet, checks tokens for scams and rugs, and tracks smart wallets. Read [Onchain research](onchain-research.md). | `Coming soon` |
 | Compare mode for chat | Send one message to several models, and see the answers side by side. | `Coming soon` |
 | Share to X | Turn an answer into a card for X. | `Coming soon` |
