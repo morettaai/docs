@@ -7,12 +7,12 @@ privacy, and the $MORETTA token before you use the app.
 
 | Page | What it explains |
 |---|---|
-| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, attached images, the models, and how you sign in. |
+| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, attached images, onchain research, the models, and how you sign in. |
 | [The tank](tank.md) | How holders get free credit every hour, and how the chat spends it. |
 | [Privacy](privacy.md) | Where your chat history lives, and what each model provider can see. |
 | [The token](token.md) | $MORETTA on Solana, and where to find the official contract address. |
 | [FAQ](faq.md) | Short answers to common questions. |
-| [Onchain research](onchain-research.md) | The AI agent that reads chain data with tools, checks tokens for scams and rugs, and tracks smart wallets. |
+| [Onchain research](onchain-research.md) | An AI agent that reads Solana chain data and checks a token in a safety report. |
 | [Payments](payments.md) | How you pay for credit, now and in the next development. |
 
 ## Terms
@@ -30,6 +30,8 @@ These docs use one term for each concept.
 | The free balance of a holder that fills every hour | tank |
 | The value inside a tank, counted in US dollars | credit |
 | The minimum holding for a tank to fill | line |
+| The AI that reads chain data with tools in onchain research | agent |
+| A check of one token with green, yellow, and red signals | safety report |
 
 ## Official links
 

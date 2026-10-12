@@ -39,6 +39,13 @@ The server does not ask for your name, your email address, or a password.
 The app sends each message to the model provider under the Moretta account, not under
 your wallet. A model provider never learns which wallet sent a message.
 
+## Onchain research
+
+The Moretta server runs the tools of onchain research. The services that the tools read see
+the Moretta server, not you: Helius, DexScreener, Jupiter, the registries of domains, and IPFS
+gateways. The server keeps no
+question and no answer. A research answer stays in your browser with its steps and its card.
+
 ## Private models and anonymous models
 
 Each model in the app has one label. The label tells you what the model provider can

@@ -1,7 +1,7 @@
 # What is Moretta
 
-Moretta is a private AI chat. You chat with the AI model of your choice and make images and
-videos in the same chat. Your chat history stays in your browser. Holders of $MORETTA get free credit
+Moretta is a private AI chat. You chat with the AI model of your choice, make images and
+videos, and research Solana tokens in the same chat. Your chat history stays in your browser. Holders of $MORETTA get free credit
 for the chat every hour. The app is live at [app.moretta.ai](https://app.moretta.ai).
 
 ## The chat
@@ -110,6 +110,14 @@ list shows. Read [The tank](tank.md).
 Your attached images go to the model provider with your prompt. The Moretta server keeps no
 copy of them. They stay in your browser, with the prompt. Read [Privacy](privacy.md).
 
+## Onchain research
+
+Turn on **Research** in the chat to ask about a Solana token or wallet. An AI agent reads the
+chain with read-only tools and answers from the data. Ask it to check a token, and it writes a
+safety report with 11 signals, each green, yellow, or red. The report never calls a token safe.
+The agent can also read the trading flow of a token, find its copycats, and read the age of its
+website. Read [Onchain research](onchain-research.md).
+
 ## Features
 
 A feature with the label `Coming soon` is not live yet. A feature with the label
@@ -124,7 +132,8 @@ A feature with the label `Coming soon` is not live yet. A feature with the label
 | Video | Make short videos in the chat with Veo, Kling, and more, paid from your tank. | Live |
 | Compare mode | Send one prompt to two to four image models, and see the images side by side. | Live |
 | Attach images | Attach your own images to a prompt in every mode of the chat. | Live |
-| Onchain research | An AI agent reads chain data with tools. It answers questions about a token or a wallet, checks tokens for scams and rugs, and tracks smart wallets. Read [Onchain research](onchain-research.md). | `Coming soon` |
+| Onchain research | An AI agent reads Solana chain data with read-only tools and checks a token in a safety report. Read [Onchain research](onchain-research.md). | Live |
+| Smart money | Smart wallets, KOL wallets, wallet profit, and top traders, in onchain research. Read [Onchain research](onchain-research.md). | `Coming soon` |
 | Compare mode for chat | Send one message to several models, and see the answers side by side. | `Coming soon` |
 | Share to X | Turn an answer into a card for X. | `Coming soon` |
 | Private payments | Pay for credit without a link to your identity. Read [Payments](payments.md). | `Next development` |

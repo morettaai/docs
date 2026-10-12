@@ -42,6 +42,13 @@ Yes. Turn on **Video** in the chat, pick a video model, an aspect ratio, and a l
 describe the video. A video takes about 30 seconds to a few minutes. Your tank pays for
 the video when it starts. Read [What is Moretta](what-is-moretta.md).
 
+## Can Moretta check a token for a rug?
+
+Yes. Turn on **Research** in the chat and paste the contract address. An AI agent reads the
+chain and writes a safety report with 11 signals, each green, yellow, or red. The report shows
+risk signals, not a promise, so it never calls a token safe. Read
+[Onchain research](onchain-research.md).
+
 ## Is it really private?
 
 Your chat history, images, and videos stay in your browser. The Moretta server keeps no

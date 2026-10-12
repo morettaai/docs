@@ -57,6 +57,9 @@ An image costs the price that the provider of the image model charges for it. Be
 send, your tank must hold at least the price of one image. If you stop an image before it
 is ready, the image costs nothing.
 
+A research answer costs the price of the model, as a chat answer does. The tools that read
+the chain cost you nothing. Read [Onchain research](onchain-research.md).
+
 In compare mode, each image model charges its own price. Before you send, your tank must
 hold the total price of your picks. If you stop a compare, the images that are ready cost
 their price, and the other images cost nothing.
