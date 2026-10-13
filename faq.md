@@ -6,7 +6,8 @@ full rules.
 ## What is Moretta?
 
 Moretta is a private AI chat. You chat with the AI model of your choice, and your chat
-history stays in your browser. Read [What is Moretta](what-is-moretta.md).
+history stays in your browser. In the same chat, you can make images, videos, and meme videos,
+and research Solana tokens. Read [What is Moretta](what-is-moretta.md).
 
 ## How do I chat for free?
 
@@ -41,6 +42,13 @@ Read [What is Moretta](what-is-moretta.md).
 Yes. Turn on **Video** in the chat, pick a video model, an aspect ratio, and a length, and
 describe the video. A video takes about 30 seconds to a few minutes. Your tank pays for
 the video when it starts. Read [What is Moretta](what-is-moretta.md).
+
+## Can I make a video of my meme coin?
+
+Yes. Turn on **Meme** in the chat, and paste the contract address of the coin. The app makes a
+short video of its meme, with the ticker and the contract address at the end. Each video gets a
+new scene. Your tank pays for it. Meme mode makes no videos of real people. Read
+[Meme mode](meme-mode.md).
 
 ## Can Moretta check a token for a rug?
 

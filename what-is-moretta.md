@@ -1,7 +1,7 @@
 # What is Moretta
 
 Moretta is a private AI chat. You chat with the AI model of your choice, make images and
-videos, and research Solana tokens in the same chat. Your chat history stays in your browser. Holders of $MORETTA get free credit
+videos, make meme videos of Solana tokens, and research Solana tokens in the same chat. Your chat history stays in your browser. Holders of $MORETTA get free credit
 for the chat every hour. The app is live at [app.moretta.ai](https://app.moretta.ai).
 
 ## The chat
@@ -79,7 +79,8 @@ time. Your videos stay in your browser, with your chats. Read [Privacy](privacy.
 ## Attach images
 
 You can attach your own images to a prompt in the chat, in image mode, in compare mode, and
-in video mode. To attach an image, use one of these ways:
+in video mode. Meme mode takes no attached images: a meme video starts from the image of the
+token. To attach an image, use one of these ways:
 
 - Click the paper clip in the chat, and pick an image file.
 - Paste an image into the chat.
@@ -110,6 +111,13 @@ list shows. Read [The tank](tank.md).
 Your attached images go to the model provider with your prompt. The Moretta server keeps no
 copy of them. They stay in your browser, with the prompt. Read [Privacy](privacy.md).
 
+## Meme mode
+
+Turn on **Meme** in the chat, and paste the contract address of a Solana meme coin. The app makes
+a short video of the meme of the token, with a new scene each time. The video ends with a card
+that shows the ticker and the contract address. Your tank pays for the scene, the first frame,
+and the video. Meme mode makes no videos of real people. Read [Meme mode](meme-mode.md).
+
 ## Onchain research
 
 Turn on **Research** in the chat to ask about a Solana token or wallet. An AI agent reads the
@@ -132,9 +140,10 @@ A feature with the label `Coming soon` is not live yet. A feature with the label
 | Images | Make images in the chat with dozens of image models, paid from your tank. | Live |
 | Video | Make short videos in the chat with Veo, Kling, and more, paid from your tank. | Live |
 | Compare mode | Send one prompt to two to four image models, and see the images side by side. | Live |
-| Attach images | Attach your own images to a prompt in every mode of the chat. | Live |
+| Attach images | Attach your own images to a prompt in the chat, image, compare, and video modes. | Live |
 | Onchain research | An AI agent reads Solana chain data with read-only tools and checks a token in a safety report. Read [Onchain research](onchain-research.md). | Live |
 | Smart money | Smart wallets, KOL wallets, wallet profit, and top traders, in onchain research. Read [Onchain research](onchain-research.md). | Live |
+| Meme mode | Paste the contract address of a meme coin, and get a short video of its meme. Read [Meme mode](meme-mode.md). | Live |
 | Compare mode for chat | Send one message to several models, and see the answers side by side. | `Coming soon` |
 | Share to X | Turn an answer into a card for X. | `Coming soon` |
 | Private payments | Pay for credit without a link to your identity. Read [Payments](payments.md). | `Next development` |

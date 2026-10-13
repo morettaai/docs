@@ -46,6 +46,17 @@ the Moretta server, not you: Helius, DexScreener, Jupiter, Solana Tracker, the r
 domains, and IPFS gateways. The server keeps no
 question and no answer. A research answer stays in your browser with its steps and its card.
 
+## Meme mode
+
+Meme mode reads public data about a token: the chain through Helius, the market through
+DexScreener, the metadata of the token, and the title and the description of up to 2 of its
+websites. The Moretta server reads this data, so these services see the Moretta server, not
+you. The models of Meme mode get the token and your idea, never your wallet.
+
+While the provider makes a meme video, the server keeps your wallet, the job id, and the price,
+as for any video. The server keeps no token, no idea, and no recipe. Your meme videos stay in
+your browser. Read [Meme mode](meme-mode.md).
+
 ## Private models and anonymous models
 
 Each model in the app has one label. The label tells you what the model provider can

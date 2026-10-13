@@ -7,12 +7,13 @@ privacy, and the $MORETTA token before you use the app.
 
 | Page | What it explains |
 |---|---|
-| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, attached images, onchain research, the models, and how you sign in. |
+| [What is Moretta](what-is-moretta.md) | The chat, images, compare mode, videos, attached images, Meme mode, onchain research, the models, and how you sign in. |
 | [The tank](tank.md) | How holders get free credit every hour, and how the chat spends it. |
 | [Privacy](privacy.md) | Where your chat history lives, and what each model provider can see. |
 | [The token](token.md) | $MORETTA on Solana, and where to find the official contract address. |
 | [FAQ](faq.md) | Short answers to common questions. |
 | [Onchain research](onchain-research.md) | An AI agent that reads Solana chain data, checks a token, and finds the smart money in it. |
+| [Meme mode](meme-mode.md) | A short video of the meme of a Solana token, made from its contract address. |
 | [Payments](payments.md) | How you pay for credit, now and in the next development. |
 
 ## Terms
@@ -32,6 +33,7 @@ These docs use one term for each concept.
 | The minimum holding for a tank to fill | line |
 | The AI that reads chain data with tools in onchain research | agent |
 | A check of one token with green, yellow, and red signals | safety report |
+| A short video of the meme of a token, made in Meme mode | meme video |
 
 ## Official links
 
@@ -43,4 +45,4 @@ These docs use one term for each concept.
 | Email | more@moretta.ai |
 
 The app is live, and $MORETTA trades on pump.fun. The rules in these docs describe the app
-on 12 Oct 2026.
+on 13 Oct 2026.

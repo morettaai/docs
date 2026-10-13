@@ -71,8 +71,14 @@ A video costs its price per second times its length. A video that starts from yo
 can cost more. When you attach an image, the model list shows the price of a video that
 starts from it. Your tank must hold the price of the video, and it pays the price when the
 video starts. If the video fails, the price goes back to your
-tank. You cannot stop a video after you send it. You can make one video at a time, and
-you can chat while the app makes it.
+tank. You cannot stop a video after you send it. You can make one video or one meme video at
+a time, and you can chat while the app makes it.
+
+A meme video has three parts: the scene, about $0.002; the first frame, about $0.067; and the
+video, at the price of a video that starts from an image. Before you send, your tank must hold
+the price of the video, the price of the first frame, and $0.01 for the scene. Your tank pays
+for the scene and the first frame when each one is ready, and for the video when it starts. If
+the video fails, the price of the video goes back to your tank. Read [Meme mode](meme-mode.md).
 
 You can send one message at a time. Your tank can fall below zero by the cost of one
 answer. The next fills cover it.
