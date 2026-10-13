@@ -116,7 +116,8 @@ Turn on **Research** in the chat to ask about a Solana token or wallet. An AI ag
 chain with read-only tools and answers from the data. Ask it to check a token, and it writes a
 safety report with 11 signals, each green, yellow, or red. The report never calls a token safe.
 The agent can also read the trading flow of a token, find its copycats, and read the age of its
-website. Read [Onchain research](onchain-research.md).
+website. It can read the profit of a wallet, list the top traders of a token, and find the
+smart wallets and the KOL wallets in it. Read [Onchain research](onchain-research.md).
 
 ## Features
 
@@ -133,7 +134,7 @@ A feature with the label `Coming soon` is not live yet. A feature with the label
 | Compare mode | Send one prompt to two to four image models, and see the images side by side. | Live |
 | Attach images | Attach your own images to a prompt in every mode of the chat. | Live |
 | Onchain research | An AI agent reads Solana chain data with read-only tools and checks a token in a safety report. Read [Onchain research](onchain-research.md). | Live |
-| Smart money | Smart wallets, KOL wallets, wallet profit, and top traders, in onchain research. Read [Onchain research](onchain-research.md). | `Coming soon` |
+| Smart money | Smart wallets, KOL wallets, wallet profit, and top traders, in onchain research. Read [Onchain research](onchain-research.md). | Live |
 | Compare mode for chat | Send one message to several models, and see the answers side by side. | `Coming soon` |
 | Share to X | Turn an answer into a card for X. | `Coming soon` |
 | Private payments | Pay for credit without a link to your identity. Read [Payments](payments.md). | `Next development` |

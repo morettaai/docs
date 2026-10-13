@@ -42,8 +42,8 @@ your wallet. A model provider never learns which wallet sent a message.
 ## Onchain research
 
 The Moretta server runs the tools of onchain research. The services that the tools read see
-the Moretta server, not you: Helius, DexScreener, Jupiter, the registries of domains, and IPFS
-gateways. The server keeps no
+the Moretta server, not you: Helius, DexScreener, Jupiter, Solana Tracker, the registries of
+domains, and IPFS gateways. The server keeps no
 question and no answer. A research answer stays in your browser with its steps and its card.
 
 ## Private models and anonymous models

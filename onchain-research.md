@@ -2,9 +2,9 @@
 
 This page explains onchain research in Moretta. An AI agent reads Solana chain data with
 read-only tools and answers your question from that data. The agent can also check a token
-for the signs of a scam or a rug in a [safety report](#safety-report). The tools and the
-safety report on this page are live. Smart money, holder growth, and the age of an X account
-have the label `Coming soon`.
+for the signs of a scam or a rug in a [safety report](#safety-report), and find the
+[smart money](#smart-money) in a token. The tools and the safety report on this page are
+live. Holder growth and the age of an X account have the label `Coming soon`.
 
 ## Ask a research question
 
@@ -20,14 +20,17 @@ Examples of questions:
 - "Who holds the most BONK?"
 - "Did the dev of this token sell?"
 - "What does this wallet hold?"
+- "Who made the most on this token, and do they still hold it?"
+- "Is any smart money in this token?"
+- "How good is this wallet?"
 
 ## How a question becomes an answer
 
 1. The model picks the tools that it needs and asks the Moretta server to run them.
 2. The Moretta server runs each tool and reads the chain data and the market data.
 3. The app shows each tool as a step, with a short line about its result.
-4. The model reads the results and writes the answer. The app shows a safety report as a
-   card with the answer.
+4. The model reads the results and writes the answer. The app shows a safety report, the
+   top traders, or the smart wallets as a card with the answer.
 
 The agent can run up to 6 tools for one question. Every tool only reads data.
 
@@ -45,6 +48,9 @@ The agent can run up to 6 tools for one question. Every tool only reads data.
 | Trading flow | Buys, sales, volume, and the price change over 5 minutes, 1 hour, 6 hours, and 24 hours. Also the latest 100 transactions of the main pool: unique buyers and sellers, the largest buys, and the signs of wash trading. |
 | Copycat check | Other tokens with the same ticker or name, the oldest first, and how many came before this token. |
 | Social age | The age of the website domain of the token, from the registry of the domain. The links come from the metadata of the token and from DexScreener. |
+| Wallet PnL | The profit and the loss of a wallet in US dollars, and its win rate. Also the tokens that it traded, its average hold time, and its best and worst positions. |
+| Top traders | The 10 wallets with the most profit on the token, and whether each still holds it. Also what each invested, its return, and its first and last trade. The app shows them as a table. |
+| Smart wallets | The smart wallets and the KOL wallets among the top 100 traders of the token. Each has its lifetime record and its result on the token. The app shows them as a table. Read [Smart money](#smart-money). |
 
 The trading flow shows two signs of wash trading. The first is the share of the volume that
 comes from wallets that both buy and sell. The second is the share of the 3 busiest wallets. A
@@ -91,11 +97,45 @@ does not guess.
 Under the card, the answer gives a short summary, a bull case, and a bear case, with the
 numbers.
 
+## Smart money
+
+The smart money tools read a PnL service. The service indexes the trades of SPL tokens on
+Solana since December 2023, and computes the profit and the loss of each wallet.
+
+A profit has two parts. The realized profit comes from completed sales. The unrealized
+profit comes from the tokens that the wallet still holds, at the price of now. The tools
+show both parts in US dollars, and their sum.
+
+A wallet is smart when all three hold:
+
+| Rule | Value |
+|---|---|
+| Lifetime profit, realized and unrealized | At least $50,000 |
+| Distinct tokens traded | At least 20 |
+| Lifetime return on what it invested | At least 20% |
+| Profit for each token traded, on average | At least $500 |
+
+A pool, an exchange, a bot, an arbitrage bot, a hacker wallet, or a spam wallet is never
+smart, whatever its numbers. The rule reads the profit across many tokens, not one or two
+trades. A creator can build a wallet with a good record to bait buyers, so a few lucky
+trades do not count. A bot that sprays thousands of tokens for a few dollars each fails the
+last rule.
+
+A KOL wallet is a wallet that the PnL service knows as the wallet of an influencer. The
+smart wallets tool lists up to 5 KOL wallets among the traders of a token, smart or not, with
+a `KOL` chip. The name of a wallet comes from the service, and the app treats it as data, not
+as a fact.
+
+The top traders and the smart wallets show as a table under the steps. Each row has the
+wallet, its profit on the token, its return or its lifetime profit, and whether it still
+holds the token.
+
 ## Limits
 
 - The agent runs up to 6 tools for one question.
 - A wallet can run 60 tools in one day, counted in UTC. Research opens again at 00:00 UTC.
 - The agent works on Solana only.
+- The PnL service has no record of a wallet that traded no SPL token since December 2023.
 
 ## Rules for the agent
 
@@ -111,8 +151,9 @@ numbers.
 
 The Moretta server runs every tool. Helius gives the chain data, DexScreener gives the
 market data, and Jupiter gives the prices and the sell quotes. The registries of domains give
-the age of a website, and IPFS gateways give the metadata of a token. These services see the
-Moretta server, not you.
+the age of a website, and IPFS gateways give the metadata of a token. Solana Tracker gives
+the profit of wallets and the traders of a token. These services see the Moretta server, not
+you.
 
 The creator of a token sets the address of its metadata. The Moretta server never opens that
 address as it is. It reads only a checked IPFS or Arweave address, through gateways of its own.
@@ -137,13 +178,5 @@ These tools have the label `Coming soon`. They are not live yet.
 
 | Tool | What it will check |
 |---|---|
-| Smart wallets | Wallets with a strong record across many tokens, and when they bought or sold this token. |
-| KOL wallets | Known wallets of influencers, and when they bought or sold this token. |
-| Wallet PnL | The profit, the win rate, and the average hold time of a wallet. |
-| Top traders | The wallets with the most profit on this token, and whether they still hold it. |
 | Holder growth | The number of holders over time. |
 | X account age | When someone opened the X account of a token, and its followers. |
-
-Moretta will label a wallet as smart from its profit across many tokens, not from one or two
-trades. A creator can build a wallet with a good record to bait buyers, so a few lucky trades
-will not count.
